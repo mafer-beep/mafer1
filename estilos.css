@@ -1,0 +1,25 @@
+*.titulo{
+    text-align: center;
+    color: navy;
+ }
+ 
+ body {
+     background-image: url('fondo3.jpg') ;
+ }
+  .inscripcion{
+      width: 400px;
+      background: #243c31;
+      padding: 30px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 4px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+      box-shadow: 7px 13px 37 px #000;
+ 
+  }
+ 
+  .tituls{
+      color: white
+  }
+ 

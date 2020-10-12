@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inscripcion</title>
+</head>
+<body>
+
+    <h1 class="titulo" >Inscripcion</h1>
+    <hr>
+    <form action="#">
+        <fieldset class="inscripcion">
+            <legend class="tituls">Inicio de usuario </legend>
+            <div>
+                <label for="usuario">Nombre:</label>
+                <input id="usuario" type="text" name="usuario">
+            </div><br>
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input id="email" type="text" name="email">
+            </div><br>
+      
+
+
+    <div >
+        <label for="Semestre">Semestre:</label>
+        <select name="Turno">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+
+            <option value="" selected="selected">Selecciona Tu Semestre...</option>
+        </select>
+    </div><br>
+
+    <div> Especialidades: <br>
+        
+        <input type="checkbox" id="logistica" name="Especialidades" value="logistica">
+        <label for="logistica">logistica</label><br>
+
+        <input type="checkbox" id="construccion" name="Especialidades" value="construccion">
+        <label for="construccion">construccion</label><br>
+
+        
+        <input type="checkbox" id="electronica" name="electronica" value="electronica">
+        <label for="electronica">electronica</label><br>
+
+
+        <input type="checkbox" id="contabilidad" name="Especialidades" value="contabilidad">
+        <label for="contabilidad">contabilidad</label><br>
+
+
+        <input type="checkbox" id="programacion" name="programacion" value=" programacion">
+        <label for="programacion">programacion</label><br>
+
+    </div><br>
+
+    <div>Sexo: <br>
+        <input type="radio" id="Femenino" name="sexo" value="Femenino">
+        <label for="masculino">Femenino</label><br>
+        <input type="radio" id="Masculino" name="sexo" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+    </div><br>
+
+        <input type="submit" name="submit" value="Enviar informacion">
+        <input type="reset" name="reset" value="Limpiar formulario">
+    </div><br>
+
+</fieldset>
+    </form>
+</body>
+</html>
